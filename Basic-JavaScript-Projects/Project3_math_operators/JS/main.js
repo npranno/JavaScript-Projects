@@ -30,17 +30,17 @@ function modulusOperator() {
 
 function negotiationOperator() {
     var x = 10;
-    document.getElementById("Math7").innerHTML = "The opposite of 10 is " + -x;
+    document.getElementById("Math7").innerHTML = "The opposite of 10 is " + -x; 
 }
 
 var X = 10;
 X++;
-document.write(X);
+document.write(X); //This is an increment function, which displays the number that is creating by adding variable X + 1, which is 11
 
 var Y = 15;
 Y--;
-document.write(Y);
+document.write(Y); //This is the decrement function, whcich does the opposite of the increment function
 
-window.alert(Math.random() * 100);
+window.alert(Math.random() * 100); //this shows an alert when the page is opened that will display a random number between 1 and 100
 
-document.write(Math.random() * 50);
+document.write(Math.random() * 50); //this displays a random number between 1 and 50 within the page itself
