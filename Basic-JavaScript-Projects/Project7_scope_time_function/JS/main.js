@@ -65,3 +65,4 @@ function timeFunction() { //defines time function
     }
     document.getElementById("Time_of_day").innerHTML = Reply;
 }
+
